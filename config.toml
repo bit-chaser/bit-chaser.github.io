@@ -1,8 +1,7 @@
 baseURL = "https://bit-chaser.github.io/"
 languageCode = "en-us"
 title = "bit-chaser"
-theme = "m10c"
+theme = "PaperMod"
 [params]
   author = 'Nick Selpa'
-  avatar = 'profile.jpg'
   description = 'A blog built using Hugo, GitHub Actions, and GitHub Pages.'
