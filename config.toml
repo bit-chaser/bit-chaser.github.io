@@ -6,7 +6,3 @@ theme = "m10c"
   author = 'Nick Selpa'
   avatar = 'static/avatars/profile.jpg'
   description = 'A blog built using Hugo, GitHub Actions, and GitHub Pages.'
-[module]
-[[module.mounts]]
-  source = 'avatars'
-  target = 'static/avatars'
