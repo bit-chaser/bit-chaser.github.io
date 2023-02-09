@@ -4,5 +4,9 @@ title = "bit-chaser"
 theme = "m10c"
 [params]
   author = 'Nick Selpa'
-  avatar = 'images/profile.jpg'
-  description = 'A blog built using Hugo, GitHub Actions, and GitHub Pages!'
+  avatar = 'static/avatars/profile.jpg'
+  description = 'A blog built using Hugo, GitHub Actions, and GitHub Pages.'
+[module]
+[[module.mounts]]
+  source = 'avatars'
+  target = 'static/avatars'
